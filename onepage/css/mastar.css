@@ -129,6 +129,7 @@
     background: url(../images/tab01-img-1.png);
     width: 32%;
     height: 250px;
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
 }
@@ -137,6 +138,7 @@
     background: url(../images/tab01-img-2.png);
     width: 32%;
     height: 250px;
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
     opacity: 0.5;
@@ -146,6 +148,7 @@
     background: url(../images/tab01-img-3.png);
     width: 32%;
     height: 250px;
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
     opacity: 0.5;
