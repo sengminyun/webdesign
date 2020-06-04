@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>아트빌리지</title>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=41ba625bb90705a7a6a0175b21a86c3b"></script>
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="js/script.js"></script>
 <style>
@@ -17,8 +18,16 @@
 <body>
 <div id="section01">
     <div class="menu_box">
-        <div class="logo"><a href="#section01"><img src="images/logo.png" alt=""></a></div>
+		<div class="logo"><a href="#section01"><img src="images/logo.png" alt=""></a></div>
         <ul class="nav">
+			<div class="nav_btn">
+				<ul class="button">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</ul>
+			</div>
             <li><a href="#section01">아트 빌리지</a></li>
             <li><a href="#section02">한옥마을</a></li>
             <li><a href="#section03">갤러리</a></li>
@@ -229,7 +238,12 @@
 	</div>
 </div>
 <div id="section05">
-	<div id="map" style="width:100%;height:350px;"></div>
+	<div class="sec05-title">
+		<h1>오시는 길</h1>
+	</div>
+	<div class="map">
+
+	</div>
 </div>
 </body>
 </html>
