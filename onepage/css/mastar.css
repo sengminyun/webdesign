@@ -46,7 +46,12 @@
         flex-direction: column;
         text-align: center;
         padding: 30% 0;
-
+    }
+    .menu_box>.logo{
+        display: none;
+    }
+    .nav{
+        display: none;
     }
 }
 
@@ -141,7 +146,7 @@
         width: 100%;
     }
     .sec02-warp{
-        width: 100% !important;
+        width: 90% !important;
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
@@ -370,79 +375,95 @@
 
 #section04{
     width:100%; 
-
-    background:#F33;
+    font-family: 'Binggrae';
 }
 
 
-.sec04-warp{
-    width: 1600px;
-    margin:0 auto;
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
+.page4{
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 150px;
 }
-
-
-.sec04-title{
-    padding-bottom: 50px;
-}
-.sec04-title>h1{
+.title4{
     text-align: center;
+    font-size: 48px;
+    font-family: 'Binggrae';
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
-
-.sec04-row div{
-    width: 50%;
-}
-.sec04-row{
+.show{
     display: flex;
 }
-
-.flex{
-    display: flex;
-    flex-direction: row-reverse;
-
-}
-.sec04-sub-img01{
-    width: 100%;
+.show-img{
+    width: 480px;
     height: 300px;
-    background: url('../images/tab01-img-1.png');
-    background-position: center;
-    background-size: cover;
+    display: flex;
+    overflow: hidden;
 }
-
-
-
-.sec04-sub-img02{
-    width: 100%;
+.show-content{
+    width: 960px;
     height: 300px;
-    background: url('../images/tab01-img-1.png');
-    background-position: center;
-    background-size: cover;
+    font-family: 'Binggrae';
+    font-size: 28px;
+}
+.show-content h1{
+    font-size: 36px;
+    margin-top: 50px;
+}
+.show-content p{
+    margin: 30px 0 0 20px;
+}
+.slide_box1 ul{
+    display: flex;
+    overflow: hidden;
 }
 
-.sec04-sub-txt01{
+.view{
     display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
 }
-.sec04-sub-txt02{
+.view-img{
+    width: 480px;
+    height: 300px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
+    overflow: hidden;
 }
+
+.view-content{
+    width: 960px;
+    height: 300px;
+    font-family: 'Binggrae';
+    font-size: 28px;
+}
+.view-content h1{
+    font-size: 36px;
+    text-align: right;
+    margin-top: 50px;
+}
+.view-content p{
+    text-align: right;
+    margin: 30px 20px 0 0;
+}
+.slide_box2 ul{
+    display: flex;
+    overflow: hidden;
+}
+
 
 @media(max-width:767px){
-    .sec04-warp{
+    .page4{
         width: 100%;
     }
-    .sec04-row{
-        display: block;
+    .show-content,.view-content{
+        width: 50%;
     }
-    .sec04-row div{
-        width: 100%;
+    .view-img,.show-img{
+        width: 50%;
+    }
+    .view-content h1,.show-content h1{
+        font-size: 30px;
+    }
+    .show-content p,.view-content p{
+        font-size: 22px;
     }
 }
 
@@ -451,10 +472,15 @@
 	
 #section05{
     width:100%; 
-    height:1500px; 
-    background:#FC0;
 }
 
+
+
+
+
+
+
+/* section05 */
 .menu_box{
     width:100%; 
     height:90px; 
@@ -473,8 +499,7 @@
     font-size:46px; 
     padding:15px 0 0 35px; 
     float:left; 
-    color:#FFF;
-    font-family:'Open Sans',Arial,Helvetica,sans-serif; 
+    color:#FFF; 
     text-decoration:none;
 }
 			
@@ -493,39 +518,39 @@
     text-decoration:none; 
     color:#FFF; 
     line-height:100px; 
-    font-family: 'Open Sans',Arial,Helvetica,sans-serif; 
+    font-family: 'Binggrae'; 
     font-size:14px;
 }
 					
 	/**메뉴부분 마우스 오버시 색상 **/
 .menu_box li a:hover{
     border-top:2px solid #FFF; 
-    padding-top:40px; 
+    padding-top:20px; 
     color:#FFF;
 }
 						
 .menu_box li:nth-child(2) a:hover{
-    border-top:2px solid #6FF;
-     padding-top:40px; 
-     color:#6FF;
+    border-top:2px solid #fFF;
+     padding-top:20px; 
+     color:#fFF;
     }
 						
 .menu_box li:nth-child(3) a:hover{
-    border-top:2px solid #9F0; 
-    padding-top:40px; 
-    color:#9F0;
+    border-top:2px solid #fff; 
+    padding-top:20px; 
+    color:#fff;
 }
 						
 .menu_box li:nth-child(4) a:hover{
-    border-top:2px solid #F33; 
-    padding-top:40px; 
-    color:#F33;
+    border-top:2px solid #fff; 
+    padding-top:20px; 
+    color:#fff;
 }
 						
 .menu_box li:nth-child(5) a:hover{
-    border-top:2px solid #FC0;
-     padding-top:40px; 
-     color:#FC0;}
+    border-top:2px solid #fff;
+     padding-top:20px; 
+     color:#Fff;}
 
 
 
@@ -533,9 +558,6 @@
 @media(max-width:767px){
     .navi{
         display: none;
-    }
-    .menu_box{
-
     }
 }
                         

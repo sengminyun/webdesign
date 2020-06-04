@@ -35,6 +35,22 @@ $(function(){
     });
 });
 
+
+
+
+setInterval(function(){
+    $(".slide_box1").delay("1800");
+    $(".slide_box1").animate({marginLeft:"-480px"},500);
+    $(".slide_box1").delay("1800");
+    $(".slide_box1").animate({marginLeft:"0"},500);
+});
+setInterval(function(){
+    $(".slide_box2").delay("1800");
+    $(".slide_box2").animate({marginLeft:"-480px"},500);
+    $(".slide_box2").delay("1800");
+    $(".slide_box2").animate({marginLeft:"0"},500);
+});
+
 /**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
 if (jQuery(window).width() > 0) {
 jQuery(window).on("scroll",function(ev){
