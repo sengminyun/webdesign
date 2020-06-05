@@ -6,11 +6,12 @@
 <title>아트빌리지</title>
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=41ba625bb90705a7a6a0175b21a86c3b"></script>
-<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/aos.js"></script>
 <script src="js/script.js"></script>
 <style>
 *{list-style:none; margin:0; padding:0;}
 </style>
+<link rel="stylesheet" href="css/aos.css">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/mastar.css">
 <link rel="stylesheet" href="css/fontawesome.css">
@@ -20,15 +21,15 @@
 <div id="section01">
     <div class="menu_box">
 		<div class="logo"><a href="#section01"><img src="images/logo.png" alt=""></a></div>
+		<div class="nav_btn">
+			<ul class="button">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</ul>
+		</div>
         <ul class="nav">
-			<div class="nav_btn">
-				<ul class="button">
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</ul>
-			</div>
             <li><a href="#section01">아트 빌리지</a></li>
             <li><a href="#section02">한옥마을</a></li>
             <li><a href="#section03">갤러리</a></li>
@@ -58,11 +59,11 @@
 	<div class="row sec02-warp warp">
 		<div class="text-warp">
 			<h1>_한옥 마을</h1>
-			<h1>한옥 숙박 체험, 한옥 꽃집 플레노, 한옥 카페 다인 등
-				여러가지 활동을 할 수 있습니다.</h1>
+			<p>한옥 숙박 체험, 한옥 꽃집 플레노, 한옥 카페 다인 등
+				여러가지 활동을 할 수 있습니다.</p>
 		</div>
 		<div class="img-warp">
-			<div class="tab1-img">
+			<div class="tab1-img" data-aos="fade-up">
 				<div class="tab-img-1">
 					
 				</div>
@@ -74,7 +75,7 @@
 				</div>
 			</div>
 			<div class="tab1-txt tab-txt-warp">
-				<div class="tab-txt-1">
+				<div class="tab-txt-1" data-aos="fade-up">
 					<div class="tab1-main-txt">
 						<div class="tab1-sub-txt">
 							<h1>전통 한옥 숙박 체험</h1>
@@ -90,7 +91,7 @@
 					</div>
 				</div>
 				<div class="tab-txt-2 tab-txt-warp">
-					<div class="tab-txt-2">
+					<div class="tab-txt-2" data-aos="fade-up">
 						<div class="tab2-main-txt">
 							<div class="tab2-sub-txt">
 								<h1>한옥 꽃집 플레노</h1>
@@ -107,7 +108,7 @@
 					</div>
 				</div>
 				<div class="tab-txt-3 tab-txt-warp">
-					<div class="tab-txt-3">
+					<div class="tab-txt-3" data-aos="fade-up">
 						<div class="tab3-main-txt">
 							<div class="tab3-sub-txt">
 								<h1>전통 한옥 카페 다인</h1>
@@ -239,12 +240,16 @@
 	</div>
 </div>
 <div id="section05">
-	<div class="sec05-title">
-		<h1>오시는 길</h1>
-	</div>
 	<div class="map">
-
+		<div class="bg-black2">
+			<div class="sec05-title">
+				<h1>오시는 길</h1>
+			</div>
+		</div>
 	</div>
 </div>
+<script>
+	AOS.init();
+</script>
 </body>
 </html>
