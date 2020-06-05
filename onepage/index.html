@@ -57,7 +57,7 @@
 <div id="section02">
 	<div class="row sec02-warp warp">
 		<div class="text-warp">
-			<h1>_한옥 마을</h1>
+			<h1>한옥 마을</h1>
 			<p>한옥 숙박 체험, 한옥 꽃집 플레노, 한옥 카페 다인 등
 				여러가지 활동을 할 수 있습니다.</p>
 		</div>
@@ -239,18 +239,35 @@
 	</div>
 </div>
 <div id="section05">
-	<div class="map">
-		<div class="bg-black2">
-			<div class="sec05-title">
-				<h1>오시는 길</h1>
+	<div class="bg-black2">
+		<div class="sec05_title">
+			<h1>오시는 길</h1>
+		</div>
+		<div class="address">
+			<h2>_주소</h2>
+			<p> 경기도 김포시 모담 공원로 170</p>
+		</div>
+		<div class="call">
+			<h2>_문의</h2>
+			<p>031 - 996 - 6835</p>
+		</div>
+		<div class="bus">
+			<h2>_대중 교통</h2>
+			<div class="bus_menu">
+				<p> 김포한강신도시 IC | 운양동 한강화성파크 드림 방면</p>
+				<div class="bus_sub">
+					<h3>버스</h3>
+					<p>버스당산(7100번), 여의도(G6001번), <br>석수역(388번), 인천(81-1번) → 아트빌리지 하차</p>
+				</div>
 			</div>
 		</div>
 	</div>
-
-	
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=41ba625bb90705a7a6a0175b21a86c3b"></script>
-	<script>
-		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+	<div id="map">
+	</div>
+</div>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=41ba625bb90705a7a6a0175b21a86c3b"></script>
+<script>
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = { 
         center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
         level: 3 // 지도의 확대 레벨
@@ -270,9 +287,8 @@ var marker = new kakao.maps.Marker({
 marker.setMap(map);
 
 // 아래 코드는 지도 위의 마커를 제거하는 코드입니다
-// marker.setMap(null); 
-	</script>
-</div>
+// marker.setMap(null);    
+</script>
 <script>
 	AOS.init();
 </script>
