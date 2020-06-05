@@ -33,7 +33,7 @@ $(function(){
         $('.tab-img-1').css('opacity','0.5');
         $('.tab-txt-2').css('display','none');
         $('.tab-img-2').css('opacity','0.5');
-        $('.tab-txt-3').css('display','block')
+        $('.tab-txt-3').css('display','block');
         $('.tab-img-3').css('opacity','1');
     });
     $('.button').click(function(ev){
