@@ -61,51 +61,26 @@
     }
 }
 @media(max-width:375px){
-    .sec01-warp{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 30% 0;
+    *{
+        overflow-x: hidden;
     }
-    .menu_box>.logo{
-        display: none;
-    }
-    .nav li{
-        display: none;
-    }
-    .nav_btn{
-        display: block;
-    }
-}
-@media(max-width:360px){
     #section01{
         background-size: cover;
         background-position: center;
     }
     .logo img{
-        width: 100px;
-        height: 93px;
+        width: 120px;
+        height: 110px;
     }
     .main-title h1:first-child{
-        font-size: 10px;
+        font-size: 15px;
     }
     .main-title h1:last-child{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
     }
-    .button{
-        width: 30px;
-    }
-    .button span{
-        height: 4px;
-    }
-    .button span:nth-child(2),.button span:nth-child(3){
-        top: 10px;
-    }
-    .button span:nth-child(4){
-        top: 20px;
-    }
 }
+
 
 	
 #section02{
@@ -226,32 +201,6 @@
     }
 }
 @media(max-width:375px){
-    .warp{
-        width: 100%;
-    }
-    .sec02-warp{
-        width: 90% !important;
-        display: flex;
-        flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
-    }
-    .text-warp{
-        width: 100%;
-    }
-    .img-warp{
-        width: 100%;
-    }
-    .tab1-sub-txt h1,.tab2-sub-txt h1,.tab3-sub-txt h1{
-        font-size: 20px;
-        margin-top: 10px;
-    }
-    .tab1-sub-txt p,.tab2-sub-txt p,.tab3-sub-txt p{
-        font-size: 14px;
-        line-height: 30px;
-    }
-}
-@media(max-width:360px){
     .warp{
         width: 100%;
     }
@@ -492,18 +441,6 @@
     }
 }
 @media(max-width:375px){
-    .sec03-warp{
-        padding-bottom: 10px;
-        width: 100%;
-        margin:0 auto;
-        display: flex;
-        flex-direction: column;
-    }
-    .click-row{
-        display: none;
-    }
-}
-@media(max-width:360px){
     .sec03-warp{
         width: 90%;
     }
@@ -759,50 +696,7 @@
         padding-bottom: 0;
     }
 }
-@media(max-width:767px){
-    #section05{
-        flex-direction: column;
-    }
-    #map{
-        width:100%;
-        padding-bottom: 550px;
-    }
-    .bg-black2{
-        width: 100%;
-        padding: 0;
-        padding-top: 100px;
-        padding-bottom: 30px;
-    }
-    .sec05_title h1{
-        padding-left: 20px;
-    }
-    .address{
-        display: flex;
-        padding-top: 40px;
-        padding-bottom: 30px;
-        padding-left: 30px;
-    }
-    .call{
-        display: flex;
-        padding-top: 0;
-        padding-bottom: 30px;
-        padding-left: 30px;
-    }
-    .bus{
-        display: flex;
-        padding-bottom: 30px;
-        padding-left: 30px;
-    }
-    .bus_sub p{
-        padding-top: 20px;
-    }
-    .address p,.bus p,.call p{
-        font-size: 18px;
-        padding-top: 5px;
-        padding-bottom: 0;
-    }
-}
-@media(max-width:360px){
+@media(max-width:375px){
     #section05{
         flex-direction: column;
     }
@@ -822,18 +716,18 @@
         display: flex;
         padding-top: 40px;
         padding-bottom: 30px;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .call{
         display: flex;
         padding-top: 0;
         padding-bottom: 30px;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .bus{
         display: flex;
         padding-bottom: 30px;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .bus_sub p{
         padding-top: 10px;
@@ -847,22 +741,13 @@
         font-size: 12px;
     }
     .bus_sub h3{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
-
 
 
 
 
 /* section05 */
 
-
-
-
-@media(max-width:767px){
-    .navi{
-        display: none;
-    }
-}
                         
