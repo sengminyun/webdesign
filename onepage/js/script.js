@@ -46,15 +46,15 @@ $(function(){
 
 
 setInterval(function(){
-    $(".slide_box1").delay("1800");
+    $(".slide_box1").delay("2500");
     $(".slide_box1").animate({marginLeft:"-480px"},500);
-    $(".slide_box1").delay("1800");
+    $(".slide_box1").delay("2500");
     $(".slide_box1").animate({marginLeft:"0"},500);
 });
 setInterval(function(){
-    $(".slide_box2").delay("1800");
+    $(".slide_box2").delay("2500");
     $(".slide_box2").animate({marginLeft:"-480px"},500);
-    $(".slide_box2").delay("1800");
+    $(".slide_box2").delay("2500");
     $(".slide_box2").animate({marginLeft:"0"},500);
 });
 
