@@ -749,12 +749,11 @@
         height: 100px;
     }
     .show-img,.view-img{
-        width: 90%;
+        width: 100%;
         height: 200px;
         margin: 0 auto;
     }
     .view-content h1,.show-content h1{
-
         font-size: 24px;
     }
     .show-content p,.view-content p{
@@ -772,9 +771,6 @@
         height: 200px;
     }
     .view-content h1,.show-content h1{
-        /* margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px; */
         font-size: 18px;
     }
     .show-content p,.view-content p{
@@ -883,19 +879,16 @@
         padding-left: 20px;
     }
     .address{
-        display: flex;
         padding-top: 40px;
         padding-bottom: 30px;
         padding-left: 30px;
     }
     .call{
-        display: flex;
         padding-top: 0;
         padding-bottom: 30px;
         padding-left: 30px;
     }
     .bus{
-        display: flex;
         padding-bottom: 30px;
         padding-left: 30px;
     }
@@ -958,6 +951,10 @@
         font-size: 12px;
     }
 }
+@media(max-width:375){
+
+}
+
 @media(max-width:360px){
     #section05{
         flex-direction: column;
