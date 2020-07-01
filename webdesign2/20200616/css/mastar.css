@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.all{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    background-color: peru;
+}
+.popup{
+    display: none;
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 99;
+    top: 150px;
+    left: 400px;
+}
+.popup-top{
+    width: 100%;
+    height: 15%;
+    background-color: #000;
+    color: #fff;
+    line-height: 40px;
+}
+.popup-top p{
+    margin-left: 10px;
+}
+.popup-body{
+    width: 100%;
+    height: 70%;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.popup-bottom{
+    width: 100%;
+    height: 15%;
+
+}
+.팝업닫기{
+    margin: 5px 10px;
+    width: 40px;
+    height: 20px;
+    border: none;
+    float: right;
+}
+.logo{
+    width: 200px;
+    height: 40px;
+    float: left;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.menu{
+    float: right;
+    width: 400px;
+    height: 30px;
+    margin-top: 70px;
+    margin-right: 20px;
+    background-color: saddlebrown;
+}
+.menu>li{
+    float: left;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+.menu>li>a{
+    display: block;
+}
+.menu>li:hover>a{
+    background-color: seashell;
+    color: #000;
+}
+.sub-bg{
+    position: absolute;
+    top: 100px;
+    width: 1200px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+#slide-box{
+    width: 1200px;
+    height: 300px;
+    background-color: peru;
+    position: relative;
+}
+#slide-box>div{
+    position: absolute;
+}
+.contents{
+    width: 1200px;
+    height: 200px;
+    background-color: peru;
+}
+.notice{
+    width: 33.33%;
+    height: 200px;
+}
