@@ -375,133 +375,202 @@
 .gallery h1{
     font-size: 48px;
 }
-.gallery-img1{
+.img-box{
     width: 25%;
+    height: 348px;
+    overflow: hidden;
+}
+.gallery-img1{
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-1.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img1:hover{
+    transform: scale(1.2);
 }
 .gallery-img2{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-2.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img2:hover{
+    transform: scale(1.2);
 }
 .gallery-img3{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-3.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img3:hover{
+    transform: scale(1.2);
 }
 .gallery-img4{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-4.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img4:hover{
+    transform: scale(1.2);
 }
 .gallery-img5{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-5.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img5:hover{
+    transform: scale(1.2);
 }
 .gallery-img6{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-6.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img6:hover{
+    transform: scale(1.2);
 }
 .gallery-img7{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-7.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img7:hover{
+    transform: scale(1.2);
 }
 .gallery-img8{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-8.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img8:hover{
+    transform: scale(1.2);
 }
 .gallery-img9{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-13.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img9:hover{
+    transform: scale(1.2);
 }
 .gallery-img10{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-14.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img10:hover{
+    transform: scale(1.2);
 }
 .gallery-img11{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-12.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img11:hover{
+    transform: scale(1.2);
 }
 .gallery-img12{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-11.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img12:hover{
+    transform: scale(1.2);
 }
 .gallery-img13{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-9.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img13:hover{
+    transform: scale(1.2);
 }
 .gallery-img14{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-10.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img14:hover{
+    transform: scale(1.2);
 }
 .gallery-img15{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-15.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img15:hover{
+    transform: scale(1.2);
 }
 .gallery-img16{
-    width: 25%;
+    width: 100%;
     margin: 1px 1px;
     height: 350px;
     background: url(../images/gallery-img-16.png);
     background-size: cover;
     background-position: center;
+    transition: .5s;
+}
+.gallery-img16:hover{
+    transform: scale(1.2);
 }
 .gallery-bg{
     width: 100%;
